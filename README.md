@@ -6,9 +6,9 @@ When the machine is provisioned it runs through every directory in the `sites/` 
 and creates a database for it if it doesn't already exist.
 
 ### startup.sh
-This requires the (https://github.com/emyl/vagrant-triggers)[vagrant-triggers] plugin. Runs startup.sh on vagrant up/reload.
+This requires the [vagrant-triggers](https://github.com/emyl/vagrant-triggers) plugin. Runs startup.sh on vagrant up/reload.
 For now all this does is run mailcatcher automatically for convenience. 
 If you don't want this or can't install vagrant-triggers you can just remove it.
 
 ### The MDDD
-Read about The Magnificent Downstream Data Dumper
+Read about [The Magnificent Downstream Data Dumper](datamgr/README.md)

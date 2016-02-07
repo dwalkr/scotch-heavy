@@ -1,6 +1,6 @@
 //@base: #6D8C8E;
 //@base: #038fd8;
-@base: #5D96AB; // This variable controls the whole color scheme, change it for funsies
+@base: #5D96AB; // This variable controls the whole color scheme, change it + recompile for funsies
 
 @background: darken(@base, 35%);
 @input-bg: lighten(@base, 25%);
@@ -122,7 +122,8 @@ form {
         width: 100%;
     }
     textarea {
-        max-width: 28em;
+        width: 100%;
+        min-height: 7em;
     }
 }
 

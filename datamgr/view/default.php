@@ -33,6 +33,7 @@
             <textarea name="config[misc][exclude_tables]"><?= 
                 $dm->getConfig('misc', 'exclude_tables'); 
             ?></textarea>
+            <small>Separate tables with newline</small>
         </div>
         <div class="frm-field">
             <label>additional SQL</label><br />

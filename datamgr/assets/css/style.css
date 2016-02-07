@@ -104,7 +104,8 @@ form button:hover {
   width: 100%;
 }
 .misc textarea {
-  max-width: 28em;
+  width: 100%;
+  min-height: 7em;
 }
 .loading-img {
   display: block;

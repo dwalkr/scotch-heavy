@@ -30,6 +30,13 @@ sudo a2enmod vhost_alias
 
 service apache2 restart
 
+# install git
+sudo apt-get -y install git
+
+# install Composer
+curl -s https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+
 # create db for each site in /sites
 
 echo "SET default_storage_engine=INNODB;" | mysql -u root -proot
